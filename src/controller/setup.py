@@ -27,7 +27,6 @@ setup(
         'console_scripts': [
             'controller_node = controller.robot_controller:main',
             'controller_node_c = controller.robot_controller_c:main',
-            'controller_node_1b = controller.robot_controller_1b:main'
         ],
     },
 )

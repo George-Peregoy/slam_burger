@@ -51,7 +51,6 @@ setup(
             'qr_reader_node = path_planning.qr_reader_node:main',
             'path_publisher_1 = path_planning.pose_publisher_1:main',
             'path_publisher_1c = path_planning.pose_publisher_1c:main',
-	        'path_publisher_1b = path_planning.pose_publisher_1b:main',
         ],
     },
 )
