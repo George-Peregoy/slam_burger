@@ -1,0 +1,8 @@
+numpy>=1.21.5
+scipy>=1.8.0
+matplotlib>=3.5.1
+shapely>=2.1.2
+imageio>=2.37.2
+qrcode>=8.2
+pyzbar>=0.1.9
+pillow>=9.0.1

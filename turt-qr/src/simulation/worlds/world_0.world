@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+   <world name="world_0">
+
+       <physics type="ode">
+           <max_step_size>0.001</max_step_size>
+           <real_time_factor>1</real_time_factor>
+       </physics>
+
+       <include>
+           <uri>model://sun</uri>
+       </include>
+
+       <include>
+           <uri>model://ground_plane</uri>
+       </include>
+
+       <model name="obstacle_right">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_right.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_right.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_7">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_7.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_7.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_6">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_6.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_6.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_bottom">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_bottom.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_bottom.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_3">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_3.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_3.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_0">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_0.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_0.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_top">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_top.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_top.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_4">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_4.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_4.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_5">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_5.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_5.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_1">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_1.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_1.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_2">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_2.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_obstacle_2.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+       <model name="obstacle_left">
+           <static>true</static>
+           <pose>0 0 0 0 0 0</pose>
+           <link name="link">
+               <collision name="collision">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_left.stl</uri>
+                       </mesh>
+                   </geometry>
+               </collision>
+               <visual name="visual">
+                   <geometry>
+                       <mesh>
+                           <uri>model://meshes/world_0_wall_left.stl</uri>
+                       </mesh>
+                   </geometry>
+                   <material>
+                       <ambient>0.5 0.5 0.5 1</ambient>
+                       <diffuse>0.7 0.7 0.7 1</diffuse>
+                   </material>
+               </visual>
+           </link>
+       </model>
+
+   </world>
+</sdf>

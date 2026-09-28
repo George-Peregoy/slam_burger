@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<EBS_PrinterProject>
+  <ProjectSettings DataFormat="10" PrintHeadName="EBS-Electromagnetic-32" FriendlyName="Undefined" w="200" h="32" ObjectsCount="1" ManagerInfo="1" min_w="40"/>
+  <PrintingParams ExternParamsFile="" UseExternParamsFile="0" ImpulseGeneratorSource="1" TriggerType="0" TriggerSignalMode="0" PhotocellSource="0" Resolution="550" PrintDistance="0" TxtRepetitions="1" RepetitionDistance="0" RowMultiply="0" UpsideDownPrint="0" ReversePrint="0" ShaftDirection="0" TextHeight="0" CleaningRows="0" Pressure="35" DotSize="3"/>
+  <Object ObjectType="BarcodeObject" ObjectName="Barcode 1" x="15" y="7" w="21" h="21" AutoSize="0" Transparent="1" TransformMode="0" ObjectRotate="0" MustEdit="0" Printable="1" BarcodeID="Ex:58" BorderType="0" BorderSize="1" Signature="0" SubType="-1" AutoAdjustText="0" Fontname="fonts/User/MTCORSVA.ttf" FontSize="20" FontSizeY="20" FontBold="0" FontItalic="0" Cmd="zint --output=%O --scale=0.5 --barcode=58 -d%T" Text="5 5 0 11 9 0">
+    <EditorData Field0="" Field1="" Field2="" Field3="" Field4="" Field5="" Field6="" Field7="" Field8="" Field9="" Field10="" Field11="" Field12="" Field13="" Field14="1"/>
+  </Object>
+</EBS_PrinterProject>
